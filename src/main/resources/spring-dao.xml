@@ -23,7 +23,7 @@
         <property name="testOnReturn" value="false"/>
         <property name="testWhileIdle" value="false"/>
         <property name="validationQuery" value="select 1"/>
-        <property name="minEvictableIdleTimeMillis" value="1000"/>
+        <property name="minEvictableIdleTimeMillis" value="30000"/>
         <property name="numTestsPerEvictionRun" value="-1"/>
     </bean>
 
